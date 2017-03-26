@@ -1,0 +1,207 @@
+/*
+Theme Name: wp-bootstrap
+Theme URI: http://320press.com/wpbs
+Description: A simple responsive theme based on the Bootstrap framework. Includes multiple page templates, two different sidebars and a theme options panel.
+Version: 3.0
+Author: 320press
+Author URI: http://320press.com
+Tags: black, white, one-column, two-columns, flexible-width, custom-background, custom-colors, custom-menu, full-width-template, theme-options
+License: GNU General Public License v2.0 & Apache License 2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/licenses/LICENSE-2.0
+*/
+
+/* HEADS UP: Everything that you will normally find here can be found in the library/less/wp.less */
+
+@font-face {
+	font-family: GildaDisplay;
+	src: url(library/fonts/GildaDisplay-Regular.ttf);
+}
+@font-face {
+	font-family: SourceSans-Pro;
+	src: url(library/fonts/SourceSansPro-Regular.ttf);
+}
+
+h1, h4 {
+	font-family: GildaDisplay;
+	font-size: 24px;
+	margin-bottom: 0px;
+}
+.menu-item a {
+	font-family: GildaDisplay;
+	font-size: 14px;
+	margin-bottom: 0px;
+}
+p, li {
+	font-family: SourceSans-Pro;
+}
+body {
+	background-color: #f6f6f6;
+	padding-top: 20px;
+	font-family: GildaDisplay;
+}
+
+/*******************/
+/*      Header     */
+/*******************/
+
+.navbar-default {
+	background-color: #f6f6f6;
+	border-color: #fff;
+}
+.nav-right{
+	list-style-type: none;
+	margin: 0;
+	margin-top: 20px;
+	padding: 0;
+}
+.nav-right li {
+	display: inline;
+	margin-right: 20px
+}
+.navbar-nav.nav-justified > li{
+    float:none;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	background-color: #fff;
+}
+.row .post_content .metaslider {
+	margin-top: -10px;
+}
+
+/*******************/
+/*      Home       */
+/*******************/
+
+.home-page {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#homepage-footer > .col-sm-4 {
+	padding: 10px 30px;
+}
+#homepage-footer > .col-sm-4:first-child {
+	border-right: 1px solid #f6f6f6;
+}
+#homepage-footer > .col-sm-4:last-child {
+	border-left: 1px solid #f6f6f6;
+}
+
+#homepage-footer h4 {
+	font-size: 21px;
+	border-bottom: 1px solid #f6f6f6;
+}
+
+#main article {
+	margin-bottom: 0px;
+	border-bottom: none;
+} 
+
+/*******************/
+/*      Footer     */
+/*******************/
+.footer-fix{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+/*******************/
+/*      Sidebar    */
+/*******************/
+
+.widgettitle {
+	border-bottom: 1px solid #fff;
+}
+#menu-side_bar_menu > .menu-item a {
+	border-bottom: 1px solid #fff;
+	display: block;
+	color: #000;
+	padding: 5px 0;
+}
+#menu-side_bar_menu > .menu-item a:hover {
+	text-decoration: none;
+}
+#menu-side_bar_menu {
+	list-style-type: none;
+	padding-left: 0px;
+}
+#menu-side_bar_menu .sub-menu {
+	list-style-type: none;
+}
+/*******************/
+/*      About      */
+/*******************/
+
+#main {
+	background-color: #fff
+}
+
+.featured-img{
+	padding-top: 15px;
+}
+
+/*************************/
+/*      testimonials     */
+/*************************/
+
+
+.lead {
+	font-size: 18px;
+}
+
+
+
+ol.commentlist li.bypostauthor {
+	background-color: #fff;
+}
+
+.comment-body p {
+	font-size: 20px;
+}
+.rooms{
+	margin-bottom: 15px;
+}
+.room-text {
+	margin-top: 15px;
+}
+.room-text h1 {
+	font-size: 18px;
+	margin-top: 0px;
+}
+.room-desicription{
+	margin-top: 15px;
+}
+
+.full-width-now{
+	width: 100%!important;
+	padding-left: 0px;
+}
+
+.navbar-toggle{
+	background-color: #000;
+}
+.gmw-thumbnail-map img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+/*************************/
+/*      Single Rooms     */
+/*************************/
+
+.page-header {
+	margin: 0px;
+	margin-bottom: 20px;
+}
+
+.some-paddding{
+	padding-bottom: 20px;
+}
+
+.modal{
+	padding-top: 50px;
+}
+.address {
+	margin-bottom: 0px;
+}
